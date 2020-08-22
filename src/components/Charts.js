@@ -8,7 +8,7 @@ class Charts extends React.Component {
       labels: ["January", "February", "March", "April", "May", "June", "July"],
       datasets: [
         {
-          label: "Inside Data",
+          label: "Case Data",
           fill: true,
           lineTension: 0.3,
           backgroundColor: "rgba(225, 204,230, .3)",
@@ -29,7 +29,7 @@ class Charts extends React.Component {
           data: [65, 59, 80, 81, 56, 55, 40]
         },
         {
-          label: "Ouside Data",
+          label: "Death Data",
           fill: true,
           lineTension: 0.3,
           backgroundColor: "rgba(184, 185, 210, .3)",
